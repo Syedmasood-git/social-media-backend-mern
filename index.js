@@ -21,7 +21,7 @@ app.use(express.json(
 app.use(cookieParser())
 app.use(cors({
     credentials:true,
-    origin:'https://socialmedia-mfpkkdtz5-syed-masoods-projects.vercel.app/'
+    origin:'https://social-media-frontend-mern.vercel.app/'
 }))
  
 dbConnect();
