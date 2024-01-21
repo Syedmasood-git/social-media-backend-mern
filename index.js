@@ -21,7 +21,7 @@ app.use(express.json(
 app.use(cookieParser())
 app.use(cors({
     credentials:true,
-    origin:'https://social-media-frontend-mern.vercel.app/'
+    origin:'https://social-media-frontend-mern.vercel.app'
 }))
  
 dbConnect();
